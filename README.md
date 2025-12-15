@@ -2,8 +2,20 @@
 Welcome to my submission for the SE 2 role at Omada Health!
 
 ## Recordings
+These are too big to upload directly to GitHub, my apologies. 
+
+[Code Session Recording](https://drive.google.com/file/d/1T6HjchDMwHJ3EdAoxpmQR3nam4vZPcbX/view?usp=sharing)
+
+[App Demo Recording](https://drive.google.com/file/d/1Tmj9JmWBQuNzofr7geDmjIi50iF_8_2K/view?usp=sharing)
 
 ## Screenshots
+
+<img width="25%" height="25%" alt="list_dark_mode" src="https://github.com/user-attachments/assets/8f816394-dc5a-4281-8725-b40ecbaa4399" />
+
+<img width="25%" height="25%" alt="list_light_mode" src="https://github.com/user-attachments/assets/710f100f-662e-428f-973f-da50aa4b1b7f" />
+
+<img width="25%" height="25%" alt="large_image" src="https://github.com/user-attachments/assets/6ed472c1-4c49-4ace-b256-be0513f1c37d" />
+
 
 ## Tech Used
 * Jetpack Compose for UI building
@@ -54,6 +66,13 @@ It's nice to get suggestions you're already planning on writing to speed up the 
 
 You can find some screenshots of some of the prompts I used with Grok below
 
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/6b7cd5c4-9f0d-490b-b4a5-2d3daee86554" />
+
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/966ad424-fbaa-428b-8e07-1c238a1f3e3d" />
+
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/be061361-c605-4dbc-b669-fae995e2af3e" />
+
+
 
 
 
@@ -91,5 +110,7 @@ did use Grok to try to help me debug that and the solution it mentioned was to i
 directly into the constructor of the ViewModel itself. That way I could put the TestDispatcher directly
 into the ViewModel so that the results behaved as expected. Because I was running on fumes and didn't 
 want to potentially introduce breaking changes (as the app was working solidly and it was late my time)
-I decided to omit them and explain why there's was missing coverage there in this README. 
+I decided to omit them and explain why there's was missing coverage there in this README.
+* The `CircularProgressBar` when loading new searches is behind the list and it looks ugly, I would
+  change that to be either in the front or in a better location that looks far better.
 

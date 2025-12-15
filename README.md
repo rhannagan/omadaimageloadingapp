@@ -1,6 +1,8 @@
 # Overview
 Welcome to my submission for the SE 2 role at Omada Health!
 
+You should be able to just clone this repo and install the app itself. But, if any issues arise, please let me know!
+
 ## Recordings
 These are too big to upload directly to GitHub, my apologies. 
 

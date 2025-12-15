@@ -113,4 +113,8 @@ want to potentially introduce breaking changes (as the app was working solidly a
 I decided to omit them and explain why there's was missing coverage there in this README.
 * The `CircularProgressBar` when loading new searches is behind the list and it looks ugly, I would
   change that to be either in the front or in a better location that looks far better.
+* I realized just before submission that I hardcoded some strings that I would have preferred to put
+  as constants in a companion object in a couple places, specifically, in the `FlickrService`. I would
+  have moved them to constants but it *completely* spaced my mind as I worked on the other features of
+  the app. 
 
